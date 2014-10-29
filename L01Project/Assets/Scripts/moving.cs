@@ -5,7 +5,9 @@ public class moving : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		GameObject go = Resources.Load ("Capsule") as GameObject;
+		Instantiate (go);
+
 	}
 	
 	// Update is called once per frame
